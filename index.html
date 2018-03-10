@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+    
+<html lang="en-us">
+  <head>
+    <title> Basketball Trivia Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+  
+  <div class="container main-container">
+      <div class="row main-row">
+          <div class="col-md-12 main-col">
+            
+            <section class="logo">Basketball Trivia Game </sectin>
+  
+            <section class="content">
+  
+              <div id="start-div" class="start">
+                <button id="start-btn" class="btn btn-trivia">START</button>
+              </div>
+  
+              <div id="timer-div" class="timer">
+                <label id="timeout"></label>
+              </div>
+  
+              <div id="trivia-div">
+                <div id="question-div" class="question"></div>
+                <div id="options-div" class="options"></div>
+              </div>
+  
+              <div id="answer-div">
+                <div id="result-div" class="result"></div>
+                <div id="answer-img-div" class="answer-image"></div>
+              </div>
+  
+              <div id="final-div">
+                <div id="final-result-div" class="wins"></div>
+                <div id="final" class="losss"></div>
+                <!-- <div id="blank" class=""></div> Attempted to create a div to display my unanswered questions count -->
+                <button id="restart-btn" class="btn btn-trivia">RESTART</button>
+              </div>
+            </section>
+          </div>
+      </div>
+  </div>
+  
+  <audio autoplay loop id="themesong">
+    <source src="assets/music/NBA on NBC Theme.mp3" type="audio/mpeg">
+</audio>
+ 
+  </body>
+  </html>

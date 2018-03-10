@@ -1,0 +1,161 @@
+html{
+    height: 100%;
+  }
+  
+  body{
+    height: 100%;
+    width: 100%;
+    background-image: url("https://vignette.wikia.nocookie.net/thehighschoolroleplay/images/5/56/Basketball-Court.jpg/revision/latest?cb=20140428212337");
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .main-container {
+    height: 100%;
+    display: table;
+    box-sizing: border-box;
+    padding: 60px 0 60px 0;
+    position: relative;
+    text-align: center;
+  }
+  
+  .main-row {
+    height: 100%;
+    display: table-row;
+    position: relative;
+  }
+  
+  .main-col {
+    height: 100%;
+    display: table-cell;
+    float: none;
+    text-align: center;
+    position: relative;
+    overflow: auto;
+    background: cover;
+    background: url(../images/cool.jpg);
+
+    width:50%;
+    border-radius: 30px;
+  }
+  
+  .logo{
+    height: 10%;
+    margin-top: 20px;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+  }
+  
+  .content{
+    position: relative;
+    vertical-align: bottom;
+    width: 100%;
+    height: 85%;
+  }
+  
+  .timer{
+    display: none;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 20px;
+  }
+  
+  #start-div{
+    margin-top: 24%;
+  }
+  
+  #timer-div{
+    display: none;
+  }
+  
+  #trivia-div{
+    display: none;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  #answer-div{
+    margin-top: 20px;
+    font-size: 25px;
+    display: none;
+    text-align: center;
+    overflow: auto;
+    position: relative;
+  }
+  
+  #final-div{
+    display: none;
+    margin-top: 23%;
+  }
+
+  #final{
+   font-size:25px;
+  }
+  
+  .question{
+    font-size: 30px;
+    margin-top: 5%;
+    color:white;
+    font-weight: bold;
+  }
+  
+  .options{
+    font-size: 25px;
+    text-align: left;
+    margin-left: 35%;
+    margin-top: 20px;
+    font-weight: bold;
+    color:white;
+  }
+  
+  .btn-trivia{
+    position: relative;
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+  }
+  
+  .btn-trivia:hover{
+    color: black;
+    background-color: white;
+  }
+  
+  #restart-btn{
+    margin-top: 10px;
+  }
+  
+  #final-result-div{
+    font-size: 25px;
+  }
+  
+  .option-label{
+    margin-left: 10px;
+  }
+  
+  #result-div, #options-div{
+    font-weight: bold;
+  }
+  
+  #answer-img-div{
+    margin-top: 20px;
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+    height: 60%;
+    overflow: auto;
+    position: relative;
+  }
+  
+  .answer-image{
+    width: 25%;
+    height: 25%;
+    text-align: center;
+    border-radius: 30px;
+  }
